@@ -8,7 +8,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 #impor data
-hour_df = pd.read_csv("dashboard/hour_df_clean.csv"")
+hour_df = pd.read_csv("dashboard/hour_df_clean.csv")
 #fungsi create jumlah penyewaan sepeda perhari
 def create_daily_rent_df(df):
     daily_rent_df = df.resample(rule='D', on='dteday').agg({
