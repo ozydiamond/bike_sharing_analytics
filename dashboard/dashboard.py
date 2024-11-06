@@ -51,7 +51,7 @@ max_date = hour_df['dteday'].max()
 
 with st.sidebar:
     #logo perusahaan (contoh)
-    st.image("dashboard/sharing.png")
+    st.image("dashboard/bike_logo.png")
     #menambahkan widget rentang waktu
     start_date, end_date = st.date_input(
         label='Pilih Rentang Waktu',
